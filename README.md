@@ -44,4 +44,54 @@ public class BookShopApplication {
 
 
 
+<details open>
+<summary><b>User controller</b>(click to expand or hide)</summary>
+
+<details open>
+<summary><b>Create user</b>(click to expand or hide)</summary>
+    METHOD NAME: <b>POST</b>
+<summary><b>REQUEST</b></summary>
+
 ```
+{
+    "query": "Ramzan"
+}
+```
+
+<summary><b>RESPONSE</b></summary>
+
+```
+{
+    "timestamp": null,
+    "totalHits": 3,
+    "foundRecords": [
+        {}, {}, .... //List of sanctioned clients on the Dilisense site
+    ]
+}
+```
+
+</details>
+
+<details open>
+<summary><b>Get User by id </b>(click to expand or hide)</summary>
+    METHOD NAME: <b>POST</b>
+<summary><b>REQUEST</b></summary>
+
+@PathVariable Long userId;
+
+<summary><b>RESPONSE</b></summary>
+
+```
+{
+    "timestamp": null,
+    "totalHits": 3,
+    "foundRecords": [
+        {}, {}, .... //List of sanctioned clients on the Dilisense site
+    ]
+}
+```
+
+</details>
+
+
+</details>
